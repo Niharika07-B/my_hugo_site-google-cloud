@@ -4,7 +4,7 @@ A simple **static website** built with [Hugo](https://gohugo.io/) and the **Hell
 
 ---
 
-## 📂 Structure
+# 📂 Structure
 
 ```
 my_hugo_site-google-cloud/
@@ -21,7 +21,7 @@ my_hugo_site-google-cloud/
 
 ---
 
-## 🚀 Deployment
+# 🚀 Deployment
 
 **Google Cloud Build**
 
@@ -39,7 +39,7 @@ firebase deploy
 
 ---
 
-## 🛠️ Tech Used
+# 🛠️ Tech Used
 
 * Hugo
 * Hello Friend NG theme
@@ -48,10 +48,31 @@ firebase deploy
 
 ---
 
-## ⭐ Support
+# 📊 Workflow Diagram
+
+<div align="center">
+
+      [Write Content & Code]  
+            ⬇  
+         Hugo Static Site  
+            ⬇  
+       Google Cloud Build ☁️  
+            ⬇  
+     +---------------------+  
+     | Google Cloud Storage |  
+     |   or Firebase Host   |  
+     +---------------------+  
+            ⬇  
+        🌍 Live Website  
+
+</div>
+
+
+---
+
+# ⭐ Support
 
 If you like this project, **star ⭐ the repo** and follow for more!
 
 ---
 
-Do you want me to also make a **tiny ASCII diagram** of the Hugo → Google Cloud Build → Hosting workflow for this README? That would make it visually engaging.
